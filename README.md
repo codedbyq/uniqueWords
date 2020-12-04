@@ -7,14 +7,16 @@ with the same frequency.
 
 For example, given the input:
 
-"This is a test. That is not a test. Test"
+*"This is a test. That is not a test. Test"*
 
 ...the expected output will be:
+``` javascript
 [
-[test 3],
-[a 2],
-[is 2],
-[not 1],
-[that 1],
-[this 1]
+[test, 3],
+[a, 2],
+[is, 2],
+[not, 1],
+[that, 1],
+[this, 1]
 ]
+```
